@@ -1,0 +1,60 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.bg{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(https://images.pexels.com/photos/4777369/pexels-photo-4777369.jpeg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column; 
+}
+.card{
+    box-shadow: 3px 3px 3px black;
+    border-radius: 50px;
+    background-color: aliceblue;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    width: 800px; 
+    flex-direction: column;
+}
+.text {
+  width: 100%;
+  padding: 10px 15px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  outline: none;
+  margin-bottom: 0.5rem;
+}
+.h1{
+  font-size: 2rem;
+  font-weight: 700;
+  color: #333;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.btn {
+  padding: 0.75rem 1.5rem;
+  background: indigo;
+  color: white;
+  font-size: 1rem;
+  font-weight: 600;
+  border: none;
+  border-radius: 0.75rem;
+  cursor: pointer;
+}
+.p{
+    color: green;
+    margin-top: 1.5rem;
+    font-size: 2rem;
+    font-weight: 800;
+}
